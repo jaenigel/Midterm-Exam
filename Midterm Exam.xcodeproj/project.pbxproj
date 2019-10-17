@@ -13,6 +13,7 @@
 		D611AB522357D71300239EE3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D611AB502357D71300239EE3 /* Main.storyboard */; };
 		D611AB542357D71400239EE3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D611AB532357D71400239EE3 /* Assets.xcassets */; };
 		D611AB572357D71400239EE3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D611AB552357D71400239EE3 /* LaunchScreen.storyboard */; };
+		D611AB5F2357F7F100239EE3 /* Splash Screen.png in Resources */ = {isa = PBXBuildFile; fileRef = D611AB5E2357F7F100239EE3 /* Splash Screen.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		D611AB532357D71400239EE3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D611AB562357D71400239EE3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D611AB582357D71400239EE3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D611AB5E2357F7F100239EE3 /* Splash Screen.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Splash Screen.png"; path = "../../../Downloads/Splash Screen.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +63,7 @@
 				D611AB4E2357D71300239EE3 /* ViewController.swift */,
 				D611AB502357D71300239EE3 /* Main.storyboard */,
 				D611AB532357D71400239EE3 /* Assets.xcassets */,
+				D611AB5E2357F7F100239EE3 /* Splash Screen.png */,
 				D611AB552357D71400239EE3 /* LaunchScreen.storyboard */,
 				D611AB582357D71400239EE3 /* Info.plist */,
 			);
@@ -128,6 +131,7 @@
 				D611AB572357D71400239EE3 /* LaunchScreen.storyboard in Resources */,
 				D611AB542357D71400239EE3 /* Assets.xcassets in Resources */,
 				D611AB522357D71300239EE3 /* Main.storyboard in Resources */,
+				D611AB5F2357F7F100239EE3 /* Splash Screen.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

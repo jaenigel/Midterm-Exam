@@ -94,11 +94,31 @@ class ViewController: UIViewController {
     @IBAction func btnSave(_ sender: UIButton) {
         let alert = UIAlertController(title: "Saved", message: "All changes have been saved", preferredStyle: .alert)
 
+        
 
         alert.addAction(UIAlertAction(title: "OK", style: .cancel, handler: nil))
 
         self.present(alert, animated: true)
+        
+        //Saves values to local storage
+        UserDefaults.standard.set(lblItem1.text!, forKey: "itemName1")
+        UserDefaults.standard.set(lblItem2.text!, forKey: "itemName2")
+        UserDefaults.standard.set(lblItem3.text!, forKey: "itemName3")
+        UserDefaults.standard.set(lblItem4.text!, forKey: "itemName4")
+        UserDefaults.standard.set(lblItem5.text!, forKey: "itemName5")
+        
+        UserDefaults.standard.set(lblQuantity1.text!, forKey: "itemQuantity1")
+        UserDefaults.standard.set(lblQuantity2.text!, forKey: "itemQuantity2")
+        UserDefaults.standard.set(lblQuantity3.text!, forKey: "itemQuantity3")
+        UserDefaults.standard.set(lblQuantity4.text!, forKey: "itemQuantity4")
+        UserDefaults.standard.set(lblQuantity5.text!, forKey: "itemQuantity5")
+        
     }
+    
+
+    
+    
+    
     
     
 }
