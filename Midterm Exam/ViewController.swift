@@ -1,8 +1,9 @@
 //
-//  ViewController.swift
+//  File Name: ViewController.swift
 //  Midterm Exam
 //
 //  Created by Jae Nigel Miranda on 2019-10-16.
+//  Student ID: 301106338
 //  Copyright © 2019 Jae Nigel Miranda. All rights reserved.
 //
 
@@ -37,6 +38,7 @@ class ViewController: UIViewController {
         
     }
     
+    //Action called when + or - is tapped
     @IBAction func stepper1ValueChanged(_ sender: UIStepper) {
         let stepper = sender.tag
         
@@ -64,6 +66,7 @@ class ViewController: UIViewController {
     @IBAction func btnCancel(_ sender: UIButton) {
         let alert = UIAlertController(title: "Are you sure?", message: "All data will be permanently erased", preferredStyle: .alert)
 
+        //Code runs when the button "Yes" is pressed
         alert.addAction(UIAlertAction(title: "Yes", style: .default, handler: { action in
             
             self.lblItem1.text = ""
@@ -71,15 +74,18 @@ class ViewController: UIViewController {
             self.lblItem3.text = ""
             self.lblItem4.text = ""
             self.lblItem5.text = ""
-                   
+            // Clears all textField
             self.lblQuantity1.text = ""
             self.lblQuantity2.text = ""
             self.lblQuantity3.text = ""
             self.lblQuantity4.text = ""
             self.lblQuantity5.text = ""
         }))
+        
+        //Does nothing when button "Cancel" is pressed
         alert.addAction(UIAlertAction(title: "No", style: .cancel, handler: nil))
 
+        
         self.present(alert, animated: true)
     }
     
