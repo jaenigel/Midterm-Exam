@@ -35,7 +35,6 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
-        
     }
     
     //Action called when + or - is tapped
@@ -114,11 +113,4 @@ class ViewController: UIViewController {
         UserDefaults.standard.set(lblQuantity5.text!, forKey: "itemQuantity5")
         
     }
-    
-
-    
-    
-    
-    
-    
 }
